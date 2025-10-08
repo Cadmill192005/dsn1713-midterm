@@ -4,7 +4,9 @@
 
 
 
-
+.navbar navbar-expand-lg bg-bg-teritary {
+  background-color: darkgreen;
+}
 
 .navbar-brand {
   color: #F6F3ED;
