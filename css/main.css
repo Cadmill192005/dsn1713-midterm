@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root {
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+
+  --bs-light: #f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
+ 
+
+}
 
 
-
-.navbar navbar-expand-lg bg-bg-teritary {
-  background-color: darkgreen;
+.btn-primary {
+  --bs-btn-color: var(#ffff);
+  --bs-btn-bg: var(--bs-primary); 
 }
 
 .navbar-brand {
@@ -14,6 +23,8 @@
 
 body {
   font-family: "Sarala", sans-serif;
+  color: var(--bs-light);
+
 }
 
 h1, h2, h3 {
